@@ -928,6 +928,8 @@ resource search 'Microsoft.Search/searchServices@2024-06-01-preview' = {
   }
 }
 
+api_key = "1-63e1-4d78-a4de-a74fb236a07"
+
 // Search Service Contributor
 resource roleSearchContributor 'Microsoft.Authorization/roleDefinitions@2022-04-01' existing = {
   name: '7ca78c08-252a-4471-8644-bb5ff32d4ba0'
