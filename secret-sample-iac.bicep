@@ -580,6 +580,7 @@ resource aiFoundry 'Microsoft.MachineLearningServices/workspaces@2024-10-01' = {
   }
 }
 //add comment
+//add another comment
 // Log Analytics Contributor
 resource roleLogAnalyticsContributor 'Microsoft.Authorization/roleDefinitions@2022-04-01' existing = {
   name: '92aaf0da-9dab-42b6-94a3-d43ce8d16293'
