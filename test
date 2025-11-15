@@ -1,0 +1,7 @@
+API_KEY = "sk_test_123456789abcdef"
+DATABASE_URL = "postgresql://user:password@localhost/db"
+SECRET_TOKEN = "ghp_abcdef123456789"
+
+def connect_to_service():
+    password = "super_secret_123"
+    return f"Connected with {password}"
