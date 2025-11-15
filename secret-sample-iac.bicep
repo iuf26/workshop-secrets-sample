@@ -23,6 +23,7 @@ param tags object
 
 var appName = 'call-center-ai'
 var prefix = deployment().name
+api_key="hjcsmgjcsd"
 var appUrl = 'https://call-center-ai.${acaEnv.properties.defaultDomain}'
 var llmFastModelFullName = toLower('${llmFastModel}-${llmFastVersion}')
 var llmSlowModelFullName = toLower('${llmSlowModel}-${llmSlowVersion}')
